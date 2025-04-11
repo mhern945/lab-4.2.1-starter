@@ -19,3 +19,19 @@ p {
     margin-left: 15px;
     background-color: lightblue;
 }
+
+.main-container {
+    max-width: 55rem;
+    margin: 0px auto;
+    padding: 0px 1rem;
+}
+
+.split-col {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.split-col img {
+    max-width: 35vw;
+}
