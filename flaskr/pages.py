@@ -47,6 +47,6 @@ def make_endpoints(app, backend):
     @app.route("/pages/<name>")
     def pages(name):
         """Returns the page from backend.get_wiki_page"""
-        return render_template("main.html",
+        return render_template("cat.html",
                                page_name=name,
                                page_content=backend.get_wiki_page(name))
